@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
-
-public class WeatherStation {
+// ConcreteSubject
+public class WeatherStation implements ISubject {
     private List<IObserver> observers;
     private int temperature;
 

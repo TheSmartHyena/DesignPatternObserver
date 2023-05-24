@@ -1,3 +1,4 @@
+// ConcreteObserver
 public class User implements IObserver {
     private int temperature;
 
